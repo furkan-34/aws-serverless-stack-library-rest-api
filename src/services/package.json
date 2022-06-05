@@ -1,0 +1,12 @@
+{
+  "name": "@aws-serverless-stack-library-rest-api/src",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "aws-sdk": "^2.1145.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.97"
+  }
+}

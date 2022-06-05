@@ -1,0 +1,34 @@
+{
+  "name": "aws-serverless-stack-library-rest-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@serverless-stack/cli": "^1.2.13",
+    "@serverless-stack/resources": "^1.2.13",
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "^17.0.36",
+    "typescript": "^4.7.2",
+    "vitest": "^0.13.0"
+  },
+  "workspaces": [
+    "src"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.100.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.102.0",
+    "@aws-sdk/client-dynamodb": "^3.100.0",
+    "@aws-sdk/lib-dynamodb": "^3.100.0",
+    "aws-cdk-lib": "2.24.0",
+    "i": "^0.3.7",
+    "npm": "^8.12.0",
+    "uuid": "^8.3.2"
+  }
+}

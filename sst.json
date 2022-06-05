@@ -1,0 +1,5 @@
+{
+  "name": "aws-serverless-stack-library-rest-api",
+  "region": "eu-west-1",
+  "main": "stacks/index.js"
+}
